@@ -19,9 +19,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $result = $mysqli->query($sql);
 
     if ($result && $result->num_rows === 1) {
-        $message = "✅ Login successful. Welcome, $username!";
+        $message = "✅ Login successful. Welcome, $username!!";
     } else {
-        $message = "❌ Invalid username or password.";
+        $message = "❌ Invalid username or password.!";
     }
 }
 ?>
