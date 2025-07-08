@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <title>Login Page!</title>
 </head>
 <body>
-    <h2>Simple Login!</h2>
+    <h2>Simple Login!!</h2>
     <form method="POST">
         <label>Username:</label><br>
         <input type="text" name="username" required><br><br>
