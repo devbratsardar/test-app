@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Login Page</title>
+    <title>Login Page!</title>
 </head>
 <body>
     <h2>Simple Login</h2>
